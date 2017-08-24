@@ -13,9 +13,6 @@ Make sure that UI.fig is included in the same directory.
 ICE.mat and WATER.mat - 
 The code uses interpolation in order to calculate water retention along the full parameter range. The above matrices include the values of ice retention and water retention (that is, including water inside hydrated rocks) respectively at regularly spaced grid points along a 5-D parameter space. They must be placed in the same directory as WD_water_retention.m or UI.m, for the code to work. 
 
-# Modifying the source code
-
-Can be easily modified using Matlab (e.g., the code uses a linear interpolation for simplicity, and since not all dimensions in the .mat files have at least 4 grid points; thus interpolation may be improved or the GUI may also be improved).
 
 # Doing science with the code
 
